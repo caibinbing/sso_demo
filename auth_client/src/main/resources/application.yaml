@@ -1,0 +1,19 @@
+auth-server: http://120.76.242.182:8090/auth
+server:
+  servlet:
+    context-path: /
+    session:
+      cookie:
+        name: SESSION1
+
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: "EEKA"
+      clientSecret: "{bcrypt}$2a$10$GMm.G//.mhs5JcExurxyPeqioKMORIIDRAYg7h5QfSiEOcxH5C2fG"
+      accessTokenUri: ${auth-server}/oauth/token
+      userAuthorizationUri: ${auth-server}/oauth/authorize
+    resource:
+      userInfoUri: ${auth-server}/user/getuserlist

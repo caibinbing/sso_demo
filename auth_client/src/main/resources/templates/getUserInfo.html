@@ -1,0 +1,20 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Get Users</title>
+</head>
+<body>
+<h3 style="color: red;">Get User Info</h3>
+
+<div id="getUsers">
+    <form action="http://120.76.242.182:8090/oauth/authorize" method="post">
+        <p>
+            <label>Enter Employee Id</label>
+            <input type="text" name="response_type" value="code"/>
+            <input type="text" name="client_id" value="EEKA"/>
+            <input type="text" name="redirect_uri" value="http://119.23.124.220:8090/api/getaccesstoken"/>
+            <input type="text" name="scope" value="read_profile"/>
+            <input type="SUBMIT" value="Get User info"/>
+    </form>
+</div>
+</body>
+</html>

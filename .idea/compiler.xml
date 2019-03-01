@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth_client" />
+        <module name="auth_client_2" />
+        <module name="auth_code_server" />
+        <module name="eureka_server" />
+        <module name="springcloud_demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth_server" target="1.8" />
+      <module name="beer_catalog_service" target="1.8" />
+      <module name="edge_service" target="1.8" />
+      <module name="oauth2_server" target="1.8" />
+      <module name="oauth_authorization_server" target="1.8" />
+      <module name="oauth_code_server" target="1.8" />
+      <module name="sso_client" target="1.8" />
+      <module name="sso_facebook" target="1.8" />
+      <module name="sso_resource_server" target="1.8" />
+      <module name="sso_server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth_client" options="-parameters" />
+      <module name="auth_client_2" options="-parameters" />
+      <module name="auth_code_server" options="-parameters" />
+      <module name="auth_server" options="-parameters" />
+      <module name="beer_catalog_service" options="-parameters" />
+      <module name="edge_service" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
+      <module name="oauth2_server" options="-parameters" />
+      <module name="oauth_authorization_server" options="-parameters" />
+      <module name="oauth_code_server" options="-parameters" />
+      <module name="sso_client" options="-parameters" />
+      <module name="sso_facebook" options="-parameters" />
+      <module name="sso_resource_server" options="-parameters" />
+      <module name="sso_server" options="-parameters" />
+    </option>
+  </component>
+</project>
